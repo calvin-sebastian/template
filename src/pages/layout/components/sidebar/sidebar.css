@@ -1,0 +1,34 @@
+.sidebar {
+  position: fixed;
+  top: 56px;
+  width: 250px;
+  height: 100%;
+  background-color: rgb(234, 234, 234);
+  height: 100%;
+}
+
+.show-sidebar {
+  left: 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.directory-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 56px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: rgb(221, 221, 221);
+}
+
+.directory-label:hover {
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+}
+
+.hide-sidebar {
+  left: -250px;
+  transition: all 0.3s ease-in-out;
+}

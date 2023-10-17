@@ -1,0 +1,30 @@
+button {
+    outline: none !important; /* Remove the default focus outline */
+    border: none !important;  /
+}
+
+.sidebar-toggle {
+  background-color: transparent;
+  border-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 56px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px;
+}
+
+.sidebar-toggle:hover {
+  border: 0px;
+  cursor: pointer;
+  background-color: rgb(234, 234, 234);
+}
+
+.top-directory-label {
+  margin-right: 30px;
+  color: black;
+  font-size: 22px;
+}

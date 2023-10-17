@@ -1,0 +1,28 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  z-index: 30000;
+  height: 56px;
+  background-color: rgb(221, 221, 221);
+  width: 100%;
+}
+
+/* .sidebar-hidden {
+ 
+  margin-left: 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-shown {
+  width: calc(100% - 250px);
+  margin-left: 250px;
+  transition: all 0.3s ease-in-out;
+} */
+
+.topbar h1 {
+  padding: 0px;
+  margin: 0px;
+  color: rgb(63, 63, 63);
+  font-size: 30px;
+  font-weight: 600;
+}

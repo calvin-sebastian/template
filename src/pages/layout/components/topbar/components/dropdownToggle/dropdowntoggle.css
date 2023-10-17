@@ -1,0 +1,32 @@
+.dropdown-toggle {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 56px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dropdown-toggle:hover {
+  cursor: pointer;
+  background-color: rgb(234, 234, 234);
+}
+
+.dropdown-toggle button {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: transparent !important;
+}
+
+.dropdown-toggle h2 {
+  color: rgb(56, 56, 56);
+}
+
+.dropdown-toggle button:hover {
+  background-color: rgb(225, 225, 225) !important;
+  border: 1px solid grey;
+}

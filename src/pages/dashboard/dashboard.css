@@ -1,0 +1,12 @@
+.dashboard {
+  padding: 20px;
+  width: 100%;
+  color: black;
+}
+
+.page-label {
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  justify-content: start;
+}
